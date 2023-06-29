@@ -4,7 +4,7 @@ import socket
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 
-server.bind(('192.168.8.106',1234))
+server.bind(('76.76.21.142',1234))
 
 
 server.listen(5)
